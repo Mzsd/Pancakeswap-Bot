@@ -4,7 +4,6 @@ A threaded panacakeswap bot to place buy order and sell order with an ability to
 ## STEPS TO USE
 - Download the repo
 - Install the packages mentioned in requirements.txt
-- Place your binance api in ..\bots\assets\binance\config.json file.
 - Run gui.py
 - Paraswap part is still under WIP
 - Add your address and private key from settings menu
