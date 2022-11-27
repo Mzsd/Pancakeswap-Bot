@@ -1,0 +1,10 @@
+        
+{
+    "srcToken": "",
+    "destToken": "",
+    "amount": "1000000000000000000",
+    "side": "SELL",
+    "network": "",
+    "includeContractMethods": "simpleSwap",
+    "excludeContractMethods": "buy,swapOnUniswap"
+}

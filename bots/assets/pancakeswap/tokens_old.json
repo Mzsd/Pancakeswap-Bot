@@ -1,0 +1,185 @@
+[
+  {
+    "SYMBOL": "BNB",
+    "ADDRESS": "",
+    "DECIMAL": 18,
+    "PRICE_MOD": "false",
+
+    "USECUSTOMBASEPAIR": "false",
+    "BASESYMBOL": "enter your custom Base pair symbol if USECUSTOMBASEPAIR =True",
+    "BASEADDRESS": "enter your custom Base pair address if USECUSTOMBASEPAIR =True",
+    "BUYAMOUNTINBASE": "0.01",
+    "BUYPRICEINBASE": "0",
+
+    "SELLAMOUNTINTOKENS": "ALL",
+    "SELLPRICEINBASE": "10",
+
+    "MAXTOKENS": "0.00001",
+    "MOONBAG": "0",
+    "SLIPPAGE": "49",
+    "HASFEES": "true",
+    "GAS": "5",
+    "BOOSTPERCENT": "0",
+    "GASLIMIT": "500000",
+
+    "LIQUIDITYCHECK": "true",
+    "LIQUIDITYAMOUNT": "10"
+  },
+  {
+    "SYMBOL": "WBNB",
+    "ADDRESS": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "DECIMAL": 18,
+    "PRICE_MOD": "false",
+
+    "USECUSTOMBASEPAIR": "false",
+    "BASESYMBOL": "enter your custom Base pair symbol if USECUSTOMBASEPAIR =True",
+    "BASEADDRESS": "enter your custom Base pair address if USECUSTOMBASEPAIR =True",
+    "BUYAMOUNTINBASE": "0.01",
+    "BUYPRICEINBASE": "0",
+
+    "SELLAMOUNTINTOKENS": "ALL",
+    "SELLPRICEINBASE": "10",
+
+    "MAXTOKENS": "0.00001",
+    "MOONBAG": "0",
+    "SLIPPAGE": "49",
+    "HASFEES": "true",
+    "GAS": "5",
+    "BOOSTPERCENT": "0",
+    "GASLIMIT": "500000",
+
+    "LIQUIDITYCHECK": "true",
+    "LIQUIDITYAMOUNT": "10"
+  },
+  {
+    "SYMBOL": "CAKE",
+    "ADDRESS": "0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82",
+    "DECIMAL": 18,
+    "PRICE_MOD": "false",
+
+    "USECUSTOMBASEPAIR": "false",
+    "BASESYMBOL": "enter your custom Base pair symbol if USECUSTOMBASEPAIR =True",
+    "BASEADDRESS": "enter your custom Base pair address if USECUSTOMBASEPAIR =True",
+    "BUYAMOUNTINBASE": "0.01",
+    "BUYPRICEINBASE": "0",
+
+    "SELLAMOUNTINTOKENS": "ALL",
+    "SELLPRICEINBASE": "10",
+
+    "MAXTOKENS": "0.00001",
+    "MOONBAG": "0",
+    "SLIPPAGE": "49",
+    "HASFEES": "true",
+    "GAS": "5",
+    "BOOSTPERCENT": "0",
+    "GASLIMIT": "500000",
+
+    "LIQUIDITYCHECK": "true",
+    "LIQUIDITYAMOUNT": "10"   
+  },
+  {
+    "SYMBOL": "ETH",
+    "ADDRESS": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+    "DECIMAL": 18,
+    "PRICE_MOD": "false",
+    
+    "USECUSTOMBASEPAIR": "false",
+    "BASESYMBOL": "enter your custom Base pair symbol if USECUSTOMBASEPAIR =True",
+    "BASEADDRESS": "enter your custom Base pair address if USECUSTOMBASEPAIR =True",
+    "BUYAMOUNTINBASE": "0.01",
+    "BUYPRICEINBASE": "0",
+
+    "SELLAMOUNTINTOKENS": "ALL",
+    "SELLPRICEINBASE": "10",
+
+    "MAXTOKENS": "0.00001",
+    "MOONBAG": "0",
+    "SLIPPAGE": "49",
+    "HASFEES": "true",
+    "GAS": "5",
+    "BOOSTPERCENT": "0",
+    "GASLIMIT": "500000",
+
+    "LIQUIDITYCHECK": "true",
+    "LIQUIDITYAMOUNT": "10"   
+  },
+  {
+    "SYMBOL": "ETC",
+    "ADDRESS": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+    "DECIMAL": 18,
+    "PRICE_MOD": "false",
+
+    "USECUSTOMBASEPAIR": "false",
+    "BASESYMBOL": "enter your custom Base pair symbol if USECUSTOMBASEPAIR =True",
+    "BASEADDRESS": "enter your custom Base pair address if USECUSTOMBASEPAIR =True",
+    "BUYAMOUNTINBASE": "0.01",
+    "BUYPRICEINBASE": "0",
+
+    "SELLAMOUNTINTOKENS": "ALL",
+    "SELLPRICEINBASE": "10",
+
+    "MAXTOKENS": "0.00001",
+    "MOONBAG": "0",
+    "SLIPPAGE": "49",
+    "HASFEES": "true",
+    "GAS": "5",
+    "BOOSTPERCENT": "0",
+    "GASLIMIT": "500000",
+
+    "LIQUIDITYCHECK": "true",
+    "LIQUIDITYAMOUNT": "10"   
+  },
+  {
+    "SYMBOL": "BUSD",
+    "ADDRESS": "0xe9e7cea3dedca5984780bafc599bd69add087d56",
+    "DECIMAL": 18,
+    "PRICE_MOD": "false",
+
+    "USECUSTOMBASEPAIR": "false",
+    "BASESYMBOL": "enter your custom Base pair symbol if USECUSTOMBASEPAIR =True",
+    "BASEADDRESS": "enter your custom Base pair address if USECUSTOMBASEPAIR =True",
+    "BUYAMOUNTINBASE": "0.01",
+    "BUYPRICEINBASE": "0",
+
+    "SELLAMOUNTINTOKENS": "ALL",
+    "SELLPRICEINBASE": "10",
+
+    "MAXTOKENS": "0.00001",
+    "MOONBAG": "0",
+    "SLIPPAGE": "49",
+    "HASFEES": "true",
+    "GAS": "5",
+    "BOOSTPERCENT": "0",
+    "GASLIMIT": "500000",
+
+    "LIQUIDITYCHECK": "true",
+    "LIQUIDITYAMOUNT": "10"   
+  },
+  {
+    "SYMBOL": "SAFEMOON",
+    "ADDRESS": "0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3",
+    "DECIMAL": 9,
+    "PRICE_MOD": "true",
+
+    "USECUSTOMBASEPAIR": "false",
+    "BASESYMBOL": "enter your custom Base pair symbol if USECUSTOMBASEPAIR =True",
+    "BASEADDRESS": "enter your custom Base pair address if USECUSTOMBASEPAIR =True",
+    "BUYAMOUNTINBASE": "0.01",
+    "BUYPRICEINBASE": "0",
+
+    "SELLAMOUNTINTOKENS": "ALL",
+    "SELLPRICEINBASE": "10",
+
+    "MAXTOKENS": "0.00001",
+    "MOONBAG": "0",
+    "SLIPPAGE": "49",
+    "HASFEES": "true",
+    "GAS": "5",
+    "BOOSTPERCENT": "0",
+    "GASLIMIT": "500000",
+
+    "LIQUIDITYCHECK": "true",
+    "LIQUIDITYAMOUNT": "10"   
+  }
+]
+

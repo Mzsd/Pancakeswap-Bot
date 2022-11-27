@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>370</width>
+    <height>111</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(80, 80, 80);
+color: rgb(230, 230, 230);
+border-color: rgb(40, 40, 40);</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>351</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout" rowstretch="0,0" columnstretch="0,0">
+    <property name="leftMargin">
+     <number>6</number>
+    </property>
+    <property name="topMargin">
+     <number>6</number>
+    </property>
+    <property name="rightMargin">
+     <number>6</number>
+    </property>
+    <property name="bottomMargin">
+     <number>6</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="text">
+       <string>Address:</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="privateKeyLineEdit">
+      <property name="styleSheet">
+       <string notr="true">lineedit-password-character: 9679</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLineEdit" name="addressLineEdit"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Private Key:</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>70</y>
+     <width>351</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>6</number>
+    </property>
+    <property name="rightMargin">
+     <number>6</number>
+    </property>
+    <item>
+     <widget class="QCheckBox" name="rememberCheckBox">
+      <property name="text">
+       <string>Remember Me</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="connectionLabel">
+      <property name="styleSheet">
+       <string notr="true">font: 75 8pt &quot;MS Shell Dlg 2&quot;;
+color: rgb(220, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string>Not Connected!</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="connectButton">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="minimumSize">
+       <size>
+        <width>75</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	background-color: rgb(100, 100, 100);
+	color: rgb(250, 250, 250);
+	border-style: outset;
+	border: 2px solid;
+	border-color: rgb(70, 70, 70);
+	border-radius: 4px;
+}
+
+QPushButton:hover {
+   background-color: rgb(130, 130, 130);
+}
+
+QPushButton:pressed {
+	background-color: rgb(85, 85, 85);
+}
+
+QPushButton:default {
+	background-color: rgb(100, 100, 100);
+}</string>
+      </property>
+      <property name="text">
+       <string>Connect</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,17 @@
+[
+	{
+        "LIMITWALLETPRIVATEKEY": "private key to wallet that hold LIMIT goes here - see secuirity tips on wiki!!!",
+        "LIMITWALLETADDRESS": "wallet the holds LIMIT",
+        "WALLETADDRESS": "wallet address you want to trade on",
+        "PRIVATEKEY": "private key to trading wallet here - see secuirity tips on wiki!!!",
+        "USECUSTOMNODE": "false",
+        "CUSTOMNODE": "put your own node here if you want and make, USECUSTOMNODE = TRUE",
+		"PROVIDER": "https://bsc-dataseed1.binance.org:443",
+		"EXCHANGE": "pancakeswap",
+		"EXCHANGEVERSION": "2",
+        "ROUTER": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+        "FACTORY": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+		"PREAPPROVE": "true",
+		"UNLIMITEDSLIPPAGE": "true"
+	}
+]
